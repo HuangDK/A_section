@@ -3,25 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4F94F21725386B5300E4C20D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94F21625386B5300E4C20D /* AppDelegate.m */; };
-		4F94F21A25386B5300E4C20D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94F21925386B5300E4C20D /* SceneDelegate.m */; };
 		4F94F21D25386B5300E4C20D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94F21C25386B5300E4C20D /* ViewController.m */; };
 		4F94F22025386B5300E4C20D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94F21E25386B5300E4C20D /* Main.storyboard */; };
 		4F94F22225386B5500E4C20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F94F22125386B5500E4C20D /* Assets.xcassets */; };
 		4F94F22525386B5500E4C20D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F94F22325386B5500E4C20D /* LaunchScreen.storyboard */; };
 		4F94F22825386B5500E4C20D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94F22725386B5500E4C20D /* main.m */; };
+		4F94F26225393BE900E4C20D /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94F26025393BE900E4C20D /* AViewController.m */; };
+		4F94F26625393C0700E4C20D /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94F26525393C0700E4C20D /* Target_A.m */; };
+		C335C56DEA04AFF3CF3FF5E4 /* Pods_A_section.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300BF7452DED149B3C470E7B /* Pods_A_section.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300BF7452DED149B3C470E7B /* Pods_A_section.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_section.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94F21225386B5300E4C20D /* A_section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A_section.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F94F21525386B5300E4C20D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F94F21625386B5300E4C20D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F94F21825386B5300E4C20D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4F94F21925386B5300E4C20D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4F94F21B25386B5300E4C20D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4F94F21C25386B5300E4C20D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F94F21F25386B5300E4C20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +30,12 @@
 		4F94F22425386B5500E4C20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F94F22625386B5500E4C20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F94F22725386B5500E4C20D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F94F26025393BE900E4C20D /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		4F94F26125393BE900E4C20D /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		4F94F26425393C0700E4C20D /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		4F94F26525393C0700E4C20D /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		AD92AFE741DFA9819F432722 /* Pods-A_section.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_section.debug.xcconfig"; path = "Target Support Files/Pods-A_section/Pods-A_section.debug.xcconfig"; sourceTree = "<group>"; };
+		F634079225E7DF3FA015641A /* Pods-A_section.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_section.release.xcconfig"; path = "Target Support Files/Pods-A_section/Pods-A_section.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C335C56DEA04AFF3CF3FF5E4 /* Pods_A_section.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03EE2ABB3025CABF004552F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300BF7452DED149B3C470E7B /* Pods_A_section.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F94F20925386B5300E4C20D = {
 			isa = PBXGroup;
 			children = (
 				4F94F21425386B5300E4C20D /* A_section */,
 				4F94F21325386B5300E4C20D /* Products */,
+				837E1D42412C35219E1026CD /* Pods */,
+				03EE2ABB3025CABF004552F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +79,9 @@
 		4F94F21425386B5300E4C20D /* A_section */ = {
 			isa = PBXGroup;
 			children = (
+				4F94F25F25393BE900E4C20D /* A_section */,
 				4F94F21525386B5300E4C20D /* AppDelegate.h */,
 				4F94F21625386B5300E4C20D /* AppDelegate.m */,
-				4F94F21825386B5300E4C20D /* SceneDelegate.h */,
-				4F94F21925386B5300E4C20D /* SceneDelegate.m */,
 				4F94F21B25386B5300E4C20D /* ViewController.h */,
 				4F94F21C25386B5300E4C20D /* ViewController.m */,
 				4F94F21E25386B5300E4C20D /* Main.storyboard */,
@@ -76,6 +93,34 @@
 			path = A_section;
 			sourceTree = "<group>";
 		};
+		4F94F25F25393BE900E4C20D /* A_section */ = {
+			isa = PBXGroup;
+			children = (
+				4F94F26325393BF400E4C20D /* Targets */,
+				4F94F26125393BE900E4C20D /* AViewController.h */,
+				4F94F26025393BE900E4C20D /* AViewController.m */,
+			);
+			path = A_section;
+			sourceTree = "<group>";
+		};
+		4F94F26325393BF400E4C20D /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				4F94F26425393C0700E4C20D /* Target_A.h */,
+				4F94F26525393C0700E4C20D /* Target_A.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		837E1D42412C35219E1026CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD92AFE741DFA9819F432722 /* Pods-A_section.debug.xcconfig */,
+				F634079225E7DF3FA015641A /* Pods-A_section.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F94F22B25386B5500E4C20D /* Build configuration list for PBXNativeTarget "A_section" */;
 			buildPhases = (
+				12D8D66A86506072F0560152 /* [CP] Check Pods Manifest.lock */,
 				4F94F20E25386B5300E4C20D /* Sources */,
 				4F94F20F25386B5300E4C20D /* Frameworks */,
 				4F94F21025386B5300E4C20D /* Resources */,
+				6B2FA33A76A1433FE9626010 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +188,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D8D66A86506072F0560152 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-A_section-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2FA33A76A1433FE9626010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A_section/Pods-A_section-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A_section/Pods-A_section-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-A_section/Pods-A_section-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F94F20E25386B5300E4C20D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F94F26225393BE900E4C20D /* AViewController.m in Sources */,
 				4F94F21D25386B5300E4C20D /* ViewController.m in Sources */,
+				4F94F26625393C0700E4C20D /* Target_A.m in Sources */,
 				4F94F21725386B5300E4C20D /* AppDelegate.m in Sources */,
 				4F94F22825386B5500E4C20D /* main.m in Sources */,
-				4F94F21A25386B5300E4C20D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +377,7 @@
 		};
 		4F94F22C25386B5500E4C20D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD92AFE741DFA9819F432722 /* Pods-A_section.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +395,7 @@
 		};
 		4F94F22D25386B5500E4C20D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F634079225E7DF3FA015641A /* Pods-A_section.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
